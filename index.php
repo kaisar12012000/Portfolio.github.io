@@ -35,7 +35,7 @@
     <!----------------------------About Me----------------------------------->
     <section class="about row jumbotron col-lg-12 col-xs-12">
         <div class="col-lg-4 col-xs-12">
-            <img class="rounded mx-auto d-block" src="assets/images/Irshad-Profile.jpg" style="width: 250px; height: 300px; border-radius: 50%" alt="ProfilePic">
+            <img class="rounded mx-auto d-block" src="assets/images/irshadprofile.jpg" style="width: 250px; height: 300px; border-radius: 50%" alt="ProfilePic">
         </div>
         <div class="col-lg-8 cl-xs-12">
             <span style="font-size: 42px"><b>About me: </b></span><br><span style="font-size: 36px">My name is <u>Irshaduddin Chowdhury</u></span>
@@ -131,15 +131,15 @@
             <div class="carousel-inner">
 
               <div class="item active">
-                <img src="assets/images/JS_Project1_pic.png" alt="Los Angeles" style="width:100%;">
+                <img src="assets/images/jsproject1.png" alt="Los Angeles" style="width:100%;">
                 <div class="carousel-caption">
-                  <h3><a href="assets/projects/Project1/JS_Project1.html" target="_blank">World Clock</a></h3>
+                  <h3><a href="assets/projects/project1/JS_Project1.html" target="_blank">World Clock</a></h3>
                   <p>Get to know the time at your city</p>
                 </div>
               </div>
 
               <div class="item">
-                <img src="assets/images/JS_project2.png" alt="Chicago" style="width:100%;">
+                <img src="assets/images/jsproject2.png" alt="Chicago" style="width:100%;">
                 <div class="carousel-caption">
                   <h3><a href="assets/projects/ToDo_List.html" target="_blank">To Do list</a></h3>
                   <p>Never forget your tasks</p>
@@ -147,16 +147,16 @@
               </div>
 
               <div class="item">
-                <img src="assets/images/HTML_CSS_BS.png" alt="New York" style="width:100%;">
+                <img src="assets/images/htmlcssbs.png" alt="New York" style="width:100%;">
                 <div class="carousel-caption">
-                  <h3><a href="assets/projects/Project4/3and4.php">A marketing site</a></h3>
+                  <h3><a href="assets/projects/project/3and4.php">A marketing site</a></h3>
                   <p>Shop here to experience best services</p>
                 </div>
               </div>
               <div class="item">
                 <img src="assets/images/flaskblog.png" alt="New York" style="width:100%;">
                 <div class="carousel-caption">
-                  <h3><a href="assets/projects/Project4/3and4.php">A Blogging website</a></h3>
+                  <h3><a href="assets/projects/project/3and4.php">A Blogging website</a></h3>
                   <p>Express your thoughts here</p>
                 </div>
               </div>
