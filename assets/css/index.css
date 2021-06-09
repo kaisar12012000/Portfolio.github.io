@@ -1,0 +1,219 @@
+/*-------------------------------Importing fonts--------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/*----------------------------------------General-------------------------------------------------*/
+a:visited {
+    text-decoration: none;
+}
+* {
+    max-width: 100%;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*------------------------------------------------Navbar and Header-------------------------------------------------*/
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 8px 12px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hireMe:hover {
+    text-decoration: none;
+	color: #fff;
+    background-color: black;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.hireMe {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 8px;
+    color: black;
+    text-align: center;
+}
+/*-----------Banner-------------------*/
+header {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+}
+.banner {
+    margin: 50px 50px 40px;
+}
+.banner1 {
+    padding: 50px;
+}
+.banner1 span {
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.banner1 a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.downCV {
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid black;
+}
+.downCV:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.downCV:active {
+    text-decoration: none;
+}
+.downCV:visited {
+    text-decoration: none;
+}
+/*-------------------------------------------------About------------------------------------------------*/
+.about {
+    width: 80%;
+    background-color: snow;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin: -3% 10% 20px 10%;
+    position: relative;
+}
+.about a {
+    font-size: 18px;
+}
+/*-------------------------------------------------Skills------------------------------------------------*/
+.skills {
+    margin: 30px auto;
+}
+.row1 {
+    width: 100%;
+}
+.skillCard {
+    margin: 30px 0px;
+    height: 200px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+/*--------------------------------------------Projects---------------------------------------------------*/
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 14px;
+}
+.carousel-caption h3 a {
+    text-decoration: none;
+    color: white;
+}
+/*----------------------------------------------comments-------------------------------------------------------------*/
+.comments {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-top: 70px;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+}
+.comments1 {
+    font-size: 34px;
+}
+.comments2 {
+    font-size: 20px;
+}
+.comments-btn {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+.comments-btn:hover {
+    padding: 4px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/*-----------------------------------------------Contacts-------------------------------------------------------------------------*/
+.contact {
+	padding-bottom: 200px;
+	margin-top: 100px;
+	background-color: white;
+	color: black;
+
+}
+.contact-h {
+	padding: 40px;
+	font-size: 42px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 26px;
+}
+.contact-details {
+	justify-content: center;
+}
+.email,
+.call {
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	letter-spacing: 2px;
+    font-size: 18px;
+}
+#email_icon,
+#call_icon {
+    padding: 10px;
+    font-size: 32px;
+}
+/*-----------------------------------------------footer--------------------------------------------------------------*/
+footer {
+    background-color: darkgrey;
+}
+/*======================================================================================================================================
+===================================================MEDIA QURIES=========================================================================
+======================================================================================================================================*/
+@media (max-width:991px) {
+    .banner span {
+        font-size: 26px;
+    }
+    .about div span {
+        font-size: 26px;
+    }
+    .comments center {
+        font-size: 26px;
+    }
+}
